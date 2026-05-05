@@ -10,6 +10,18 @@ public class Desafio {
         } else {
         System.out.println("Ímpar");
         }
-                
+        int soma = 0;
+        int pares = 0;
+        for (int i = 1; i <= numero; i++) {
+            System.out.println(i);
+            soma = soma + i;
+            if (i % 2 ==0){
+                pares++; 
+            }
+            
+            }
+            System.out.println("Numero de pares: " + pares);
+            
+
     }
 }
